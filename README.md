@@ -17,5 +17,5 @@ You will need a diamond index of UniProt TREMBL, called uniprot_trembl.diamond.d
 Clone the repo.  Make a directory called "genomes", put assemblies in there with .fa file extension, then:
 
 ```
-snakemake
+snakemake -s ideel.smk
 ```
